@@ -1,0 +1,142 @@
+p {
+  font-size: xx-large;
+}
+
+label {
+  font-size: xx-large;
+}
+
+input {
+  font-size: xx-large;
+}
+
+button {
+  font-size: xx-large;
+}
+
+.name {
+  text-align: center;
+  margin-top: -4rem;
+  color: limegreen;
+  background-color: lightcoral;
+  width: 50%;
+  height: 5rem;
+  font-size: 7rem;
+  margin-left: 25%;
+  font-style: italic;
+}
+
+.weve {
+  text-align: right;
+  margin-top: -4rem;
+}
+
+.fair {
+  text-align: center;
+  margin-top: -4rem;
+}
+
+.right {
+  text-align: right;
+}
+
+.rightmargin {
+  margin-left: 60%;
+}
+
+.centre {
+  text-align: center;
+}
+
+.centremargin {
+  text-align: center;
+  margin-left: 30%;
+}
+
+.go-on {
+  text-align: center;
+  margin-top: -2rem;
+}
+
+.please {
+  animation: rotate 5s infinite linear;
+  width: fit-content;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate3d(0, 1, 0, 180deg);
+  }
+}
+
+@keyframes vibrate {
+  50% {
+    transform: translateX(3px) translateY(3px);
+  }
+}
+
+.crebit {
+  text-align: center;
+  animation: vibrate 0.1s infinite linear;
+}
+
+.wow {
+  transform: rotate(-15deg);
+  text-align: center;
+  color: magenta;
+}
+
+.upload-image {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#big-text {
+  color: red;
+  position: absolute;
+  top: 40%;
+  font-size: 20rem;
+  transform: rotate(30deg);
+}
+
+body {
+  z-index: 1;
+}
+
+#file {
+  font-style: oblique;
+  font-family: cursive;
+}
+
+#bank-image-1 {
+  position: absolute;
+  opacity: 0.5;
+  top: 8rem;
+  right: 5rem;
+  z-index: -1;
+  width: 45%;
+  height: 30rem;
+}
+
+#bank-image-2 {
+  position: absolute;
+  opacity: 0.75;
+  top: 50vh;
+  left: 5rem;
+  z-index: -1;
+  width: 45%;
+}
+
+#bank-image-3 {
+  position: absolute;
+  opacity: 0.9;
+  top: 70vh;
+  right: 5rem;
+  z-index: -1;
+  width: 45%;
+}
